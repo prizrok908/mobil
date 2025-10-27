@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamesfast — Главная</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="icon" href="#">
+  <meta name="description" content="Игровой магазин Gamesfast: игры, аксессуары, подписки и консоли.">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container header__row">
+      <a class="logo" href="./index.html" aria-label="Gamesfast">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 12l10-8v5l6-3v13l-6-3v5L2 12z"/></svg>
+        <span class="logo__text">Gamesfast</span>
+      </a>
+      <nav class="nav" aria-label="Главная навигация">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link is-active" href="./index.html">Игры</a></li>
+          <li class="nav__item"><a class="nav__link" href="./catalog.html">Каталог</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Подписки</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Консоли</a></li>
+        </ul>
+      </nav>
+      <form class="search" role="search">
+        <input class="search__input" type="search" placeholder="Поиск" aria-label="Поиск">
+      </form>
+      <a class="button" href="#">Аккаунт</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__brand">
+          <h1 class="hero__title">Gamesfast</h1>
+          <p class="hero__desc">Покупай игровые хиты быстро и безопасно</p>
+          <ul class="hero__stats">
+            <li class="hero__stat"><b>430K+</b><span>игр</span></li>
+            <li class="hero__stat"><b>159K+</b><span>покупок</span></li>
+            <li class="hero__stat"><b>87</b><span>скидок</span></li>
+          </ul>
+        </div>
+        <div class="hero__cards">
+          <div class="hero-card">
+            <img src="https://placehold.co/400x220/4A90E2/FFFFFF?text=Spider-Man+2" alt="Spider-Man 2" class="hero-card__img">
+          </div>
+          <div class="hero-card hero-card--secondary">
+            <img src="https://placehold.co/300x220/C41E3A/FFFFFF?text=God+of+War" alt="God of War" class="hero-card__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular section">
+      <div class="container">
+        <h2 class="section__title">Популярные товары</h2>
+        <div class="popular__row">
+          <article class="mini-card">
+            <img src="https://placehold.co/200x200/FF6B35/FFFFFF?text=UFC+5" alt="UFC 5" class="mini-card__img">
+            <h3 class="mini-card__title">UFC 5</h3>
+            <button class="mini-card__btn" type="button">Купить</button>
+          </article>
+          <article class="mini-card">
+            <img src="https://placehold.co/200x200/2E7D32/FFFFFF?text=Charging+Station" alt="Charging Station" class="mini-card__img">
+            <h3 class="mini-card__title">Charging Station</h3>
+            <button class="mini-card__btn" type="button">Купить</button>
+          </article>
+          <article class="mini-card">
+            <img src="https://placehold.co/200x200/4A90E2/FFFFFF?text=Spider-Man+2" alt="Spider-Man 2" class="mini-card__img">
+            <h3 class="mini-card__title">Spider‑Man 2</h3>
+            <button class="mini-card__btn" type="button">Купить</button>
+          </article>
+          <article class="mini-card">
+            <img src="https://placehold.co/200x200/E91E63/FFFFFF?text=AC+Mirage" alt="Assassin's Creed" class="mini-card__img">
+            <h3 class="mini-card__title">Assassin's Creed</h3>
+            <button class="mini-card__btn" type="button">Купить</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog section">
+      <div class="container">
+        <h2 class="section__title">Каталог игр</h2>
+        <ul class="cards">
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/FF6B35/FFFFFF?text=UFC+5" alt="UFC 5" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">UFC 5</h3>
+              <div class="product__meta">
+                <span class="product__badge">Новое</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/4A90E2/FFFFFF?text=Spider-Man+2" alt="Spider-Man 2" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Spider‑Man 2</h3>
+              <div class="product__meta">
+                <span class="product__badge">Хит</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/C41E3A/FFFFFF?text=God+of+War" alt="God of War" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">God of War</h3>
+              <div class="product__meta">
+                <span class="product__badge">Sale</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/FF9500/FFFFFF?text=Horizon" alt="Horizon" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Horizon</h3>
+              <div class="product__meta">
+                <span class="product__badge">PS5</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Слайдер</h2>
+        <div class="slider">
+          <input class="slider--s1" type="radio" name="slider" id="s1" checked>
+          <input class="slider--s2" type="radio" name="slider" id="s2">
+          <input class="slider--s3" type="radio" name="slider" id="s3">
+          <input class="slider--s4" type="radio" name="slider" id="s4">
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <div class="slider__slide"><img src="https://placehold.co/800x240/4A90E2/FFFFFF?text=FIFA+24" alt="FIFA 24" class="slider__img"></div>
+              <div class="slider__slide"><img src="https://placehold.co/800x240/FF6B35/FFFFFF?text=Call+of+Duty+MW3" alt="Call of Duty" class="slider__img"></div>
+              <div class="slider__slide"><img src="https://placehold.co/800x240/C41E3A/FFFFFF?text=Elden+Ring" alt="Elden Ring" class="slider__img"></div>
+              <div class="slider__slide"><img src="https://placehold.co/800x240/2E7D32/FFFFFF?text=Zelda+TOTK" alt="Zelda TOTK" class="slider__img"></div>
+            </div>
+          </div>
+          <div class="slider__nav" aria-label="Слайды">
+            <label class="slider__dot" for="s1"></label>
+            <label class="slider__dot" for="s2"></label>
+            <label class="slider__dot" for="s3"></label>
+            <label class="slider__dot" for="s4"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <div class="footer__brand">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 12l10-8v5l6-3v13l-6-3v5L2 12z"/></svg>
+        <span class="logo__text">Gamesfast</span>
+      </div>
+      <ul class="footer__links">
+        <li><a href="#">Политика компании</a></li>
+        <li><a href="#">Поддержка</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
+
+

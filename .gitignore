@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build outputs (if you add build process later)
+node_modules/
+build/
+
+# Temporary files
+*.log
+*.tmp
+.cache/
+

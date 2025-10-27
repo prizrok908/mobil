@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamesfast — Каталог</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container header__row">
+      <a class="logo" href="./index.html" aria-label="Gamesfast">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 12l10-8v5l6-3v13l-6-3v5L2 12z"/></svg>
+        <span class="logo__text">Gamesfast</span>
+      </a>
+      <nav class="nav" aria-label="Главная навигация">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="./index.html">Игры</a></li>
+          <li class="nav__item"><a class="nav__link is-active" href="./catalog.html">Каталог</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Подписки</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Консоли</a></li>
+        </ul>
+      </nav>
+      <form class="search" role="search">
+        <input class="search__input" type="search" placeholder="Поиск" aria-label="Поиск">
+      </form>
+      <a class="button" href="#">Аккаунт</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section">
+      <div class="container">
+        <h1 class="section__title">Каталог игр</h1>
+        <ul class="cards">
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/E91E63/FFFFFF?text=GTA+6" alt="GTA 6" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">GTA 6</h3>
+              <div class="product__meta">
+                <span class="product__badge">Новое</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/7B68EE/FFFFFF?text=Hogwarts+Legacy" alt="Hogwarts Legacy" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Hogwarts Legacy</h3>
+              <div class="product__meta">
+                <span class="product__badge">Хит</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/FF4500/FFFFFF?text=Cyberpunk+2077" alt="Cyberpunk 2077" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Cyberpunk 2077</h3>
+              <div class="product__meta">
+                <span class="product__badge">Sale</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+          <li class="cards__item product">
+            <img src="https://placehold.co/400x240/00CED1/FFFFFF?text=Starfield" alt="Starfield" class="product__img">
+            <div class="product__body">
+              <h3 class="product__title">Starfield</h3>
+              <div class="product__meta">
+                <span class="product__badge">PS5</span>
+                <button class="product__btn" type="button">Купить</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section__title">Рекомендуем</h2>
+        <div class="slider">
+          <input class="slider--s1" type="radio" name="slider" id="c1" checked>
+          <input class="slider--s2" type="radio" name="slider" id="c2">
+          <input class="slider--s3" type="radio" name="slider" id="c3">
+          <input class="slider--s4" type="radio" name="slider" id="c4">
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <div class="slider__slide"><img src="https://placehold.co/800x240/9B59B6/FFFFFF?text=The+Witcher+3" alt="The Witcher 3" class="slider__img"></div>
+              <div class="slider__slide"><img src="https://placehold.co/800x240/FF1493/FFFFFF?text=Red+Dead+Redemption" alt="Red Dead Redemption" class="slider__img"></div>
+              <div class="slider__slide"><img src="https://placehold.co/800x240/32CD32/FFFFFF?text=Dark+Souls+3" alt="Dark Souls 3" class="slider__img"></div>
+              <div class="slider__slide"><img src="https://placehold.co/800x240/1E90FF/FFFFFF?text=Assassins+Creed+Mirage" alt="Assassins Creed Mirage" class="slider__img"></div>
+            </div>
+          </div>
+          <div class="slider__nav" aria-label="Слайды">
+            <label class="slider__dot" for="c1"></label>
+            <label class="slider__dot" for="c2"></label>
+            <label class="slider__dot" for="c3"></label>
+            <label class="slider__dot" for="c4"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <div class="footer__brand">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 12l10-8v5l6-3v13l-6-3v5L2 12z"/></svg>
+        <span class="logo__text">Gamesfast</span>
+      </div>
+      <ul class="footer__links">
+        <li><a href="#">Политика компании</a></li>
+        <li><a href="#">Поддержка</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
+
+
