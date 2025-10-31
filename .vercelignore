@@ -1,0 +1,12 @@
+# Exclude local/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Node/build caches (not used, but safe to ignore)
+node_modules/
+build/
+.cache/
+
+# Source folders (we deploy compiled dist)
+src/
